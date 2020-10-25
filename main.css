@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Caviar;
+    src: url(CaviarDreams.ttf);
+  }
+body{
+    font-family: Caviar;
+}
+
+#border{
+    background-color: #B7E4C7;
+  position: absolute;
+  width: 15%;
+  height: 50%;
+  border: 2px solid #081C15;
+  margin-left: -7.5%;
+  left: 50%;
+  top: 20%;
+  overflow: hidden;
+  border-radius: 5%;
+}
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#durabilityLid{
+    text-align: center;
+    font-size: 200%;
+  color: #081C15;
+  font-weight: bold;
+  margin: 5%;
+}
+#understrek{
+    width: 90%;
+  border: 2px solid #081C15;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#freezer,#recipes,#account{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: block;
+    border: 2px solid#081C15;
+    border-radius: 5%;
+    background-color: #081C15;
+    color: #52B788;
+    font-size: 150%;
+    font-family: Caviar;
+    font-weight: bold;
+    margin-top: 7%;
+    height: 10%;
+    cursor: pointer;
+  }
+
+#freezerT{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+#chicken{
+    text-align: center;
+    font-weight: bold;
+    border-top: 4px #081C15 solid;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    color: #081C15;
+
+
+}
+#tuna{
+    text-align: center;
+    font-weight: bold;
+    border-top: 4px #081C15 solid;
+    padding-top: 3%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #081C15;
+}
+#border2{
+    width: 80%;
+    border: 2px solid #081C15;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5%;
+}
+#back{
+    display: block;
+    outline: none; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#backk{
+    opacity: 0;
+}
+#chicken2{
+    text-align: center;
+    font-weight: bold;
+    border-top: 4px #081C15 solid;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    font-size: 120%;
+    color: #081C15;
+
+
+
+}
+#tuna2{
+    text-align: center;
+    font-weight: bold;
+    border-top: 4px #081C15 solid;
+    padding-top: 3%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 120%;
+    color: #081C15;
+   
+
+}
+#chicken2:hover,#tuna2:hover{
+    cursor: pointer;
+}
+#accountT{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -7%;
+}
+#accountInfo{
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+}
+#tuna3,#chicken3{
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 60%;
+
+   
+
+}
