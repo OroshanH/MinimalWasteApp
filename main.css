@@ -5,18 +5,24 @@
 body{
     font-family: Caviar;
 }
+#iphone{
+
+    position: absolute;
+    left: 40.4%;
+    top: 7%;
+    width: 24%;
+    height: 97%;
+  }
 
 #border{
-    background-color: white;
+    background-color: #B7E4C7;
   position: absolute;
-  width: 15%;
-  height: 50%;
-  border: 2px solid #081C15;
+  width: 20%;
+  height: 70%;
   margin-left: -7.5%;
   left: 50%;
   top: 20%;
   overflow: hidden;
-  border-radius: 5%;
 }
 #logo{
     margin-left: auto;
@@ -30,7 +36,14 @@ body{
   font-weight: bold;
   margin: 5%;
 }
-
+#understrek{
+    width: 90%;
+  border: 2px solid #081C15;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #081C15;
+}
 #freezer,#recipes,#account{
     margin-left: auto;
     margin-right: auto;
@@ -38,8 +51,8 @@ body{
     display: block;
     border: 2px solid#081C15;
     border-radius: 5%;
-    background-color: black;
-    color: white;
+    background-color: #081C15;
+    color: #52B788;
     font-size: 150%;
     font-family: Caviar;
     font-weight: bold;
@@ -84,8 +97,17 @@ body{
     margin-right: auto;
     display: block;
     margin-bottom: 5%;
+    background-color: #081C15;
 }
-
+#back{
+    display: block;
+    outline: none; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#backk{
+    opacity: 0;
+}
 #chicken2{
     text-align: center;
     font-weight: bold;
