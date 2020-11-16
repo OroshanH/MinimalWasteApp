@@ -1,8 +1,4 @@
-back.onclick= function(){
 
-    window.location.href = "mainSide.html"
-
-} 
 
 freezer.onclick = function(){
     window.location.href = "freezer.html";
